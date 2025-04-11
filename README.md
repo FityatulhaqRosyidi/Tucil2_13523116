@@ -5,20 +5,20 @@ oleh : Fityatul Haq Rosyidi - 13523116
 
 Program ini dimaksudkan untuk memenuhi Tugas Kecil 2 Mata Kuliah Strategi Algoritma 2024/2025. 
 
-Program ini melakukan Kompresi Gambar menggunakan algoritma Divide And Conquer dalam bentuk struktur Quadtree. setiap node pada Quadtree memiliki nilai variansi warna yang dihitung berdasarkan 4 metode yang dapat dipilih : 
+Program ini melakukan Kompresi Gambar menggunakan algoritma Divide and Conquer dalam bentuk struktur Quadtree. setiap node pada Quadtree memiliki nilai variansi warna yang dihitung berdasarkan 4 metode yang dapat dipilih : 
   - Variance
   - Mean Absolute Value (MAD)
   - Max Pixel Difference
   - Entropy
 
-Program ditulis dengan bahasa C 
+Program ditulis dengan bahasa C, dapat dijalankan pada Operating System Windows melalui terminal cmd dan powershell
 
 ## Requirements
 pastikan Compiler C (gcc) terinstall di device anda
 
 ## How to use
 1. clone repo ini di lokal anda
-2. buka terminal cmd, navigasi ke lokasi anda menyimpan repo ini
+2. buka terminal cmd/powershell, navigasi ke lokasi anda menyimpan repo ini
 3. masuk ke folder src
 4. pastikan lokasi anda sudah benar, kemudian compile dengan command
 
@@ -46,4 +46,8 @@ pada powershell
 
 
 <br>
-Jika ada kendala ketika dalam menjalankan program ini, silakan kontak penulis di alamat email berikut 13523116@mahasiswa.itb.ac.id
+Jika ada kendala ketika dalam menjalankan program ini, silakan kontak penulis di alamat email berikut : 
+
+<br>13523116@mahasiswa.itb.ac.id
+<br>13523116@std.stei.itb.ac.id
+<br>fityatulhaqrosyidi25@gmail.com
