@@ -1,5 +1,4 @@
-# Tucil2_13523116
-Quadtree Image Compression
+# Tucil2_13523116 Quadtree Image Compression
 
 oleh : Fityatul Haq Rosyidi - 13523116
 
