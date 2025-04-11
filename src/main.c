@@ -25,6 +25,8 @@ int main() {
     getMethod(&method);
     getThreshold(&threshold);
     getMinimumBlockSize(&minimumBlockSize);
+
+    printf("\n\n\nSedang melakukan kompresi...\n\n\n");
     
     
     unsigned char* image = stbi_load(inputPath, &width, &height, &channels, 0);
@@ -60,17 +62,19 @@ int main() {
     treeDepth = getTreeDepth(root);
     nodeCount = getNodeCount(root);
 
-    printf("Waktu Eksekusi : %.2f sec\n", executionTime);
+    printf("======================HASIL KOMPRESI=========================\n");
+    printf("Execution Time : %.2f sec\n", executionTime);
     printf("size before : %.2f KB\n", sizeBefore);
     printf("size after : %.2f KB\n", sizeAfter);
     printf("compression percentage : %.2f%% \n", compressionPercentage);
     printf("Tree Depth : %d\n", treeDepth);
     printf("Tree node count : %d\n", nodeCount);
+    printf("=============================================================\n");
 
     if (success) {
-        printf("Gambar berhasil disimpan di %s\n", outputPath);
+        printf("Gambar berhasil disimpan di %s\n\n", outputPath);
     } else {
-        fprintf(stderr, "Error: Gagal menyimpan gambar.\n");
+        fprintf(stderr, "Error: Gagal menyimpan gambar.\n\n");
     }
 
     // Bebaskan memori setelah selesai

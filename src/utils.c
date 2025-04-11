@@ -196,7 +196,6 @@ void DAC(int minimumBlockSize, QuadTree* root, unsigned char* image, unsigned ch
         variance = calculate_MAD(image, x, y, width, height, channels, root->colorMean, absWidth);  // nilai variansi
     } else if (method == 3) { // Max Pixel Difference
         variance = calculate_MPD(image, x, y, width, height, channels, root->colorMean, absWidth);  // nilai variansi
-        printf("%d\n", channels);
     } else if (method == 4) {
         variance = calculate_Entropy(image, x, y, width, height, channels, root->colorMean, absWidth);  // nilai variansi
     }
